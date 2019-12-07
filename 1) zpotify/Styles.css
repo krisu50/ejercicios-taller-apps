@@ -1,0 +1,52 @@
+body {
+    margin:0;
+}
+
+.desktop{
+    display: grid;
+    border: 1px solid yellow;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.titulo-grilla{
+    display: grid;
+    justify-content: center;
+}
+
+.grilla-artistas{
+    background-color: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px 140px;    
+    column-gap: 5%
+}
+
+.artistas{
+    
+    width: 30px;
+    height: 30%;
+    background-color: #5AD2AE;
+    border: 2px solid #29CEFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    grid-auto-rows: auto;
+}
+
+.ar1, .ar2, .ar3, .ar4, .ar5, .ar6, .ar7, .ar8, .ar9, .ar10, .ar11, .ar12, .ar13, .ar14, .ar15{
+    width: 100px;
+    height: 100px;
+    background-color: #5AD2AE;
+    border: 2px solid #29CEFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-display: white;
+}
