@@ -2,51 +2,85 @@ body {
     margin:0;
 }
 
-.desktop{
-    display: grid;
-    border: 1px solid yellow;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    padding-left: 15%;
-    padding-right: 15%;
+main{
+    display: block;
+    background-color: #E5E5E5;
 }
 
-.titulo-grilla{
-    display: grid;
-    justify-content: center;
+.caja-principal h1{
+    text-align: center;
 }
 
-.grilla-artistas{
-    background-color: #F2FCFF;
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #2C2C2C;
+}
+
+.caja-principal{
+    position: absolute;
+    width: 608px;
+    height: 1050px;
+    left: 475px;
+    top: 60px;
+
+    background: #F2FCFF;
     border: 2px solid #C3F1FF;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
-.grilla{
+.caja-artistas{
+    position: absolute;
+    width: 490px;
+    height: 885px;
+    left: 10px;
+    top: 70px;
     display: grid;
     grid-template-columns: 140px 140px 140px;
-    grid-template-rows: 140px 140px 140px 140px 140px;    
-    column-gap: 5%
-}
-
-.artistas{
+    border-radius: 20px;
+    top: 110px;
+    padding-left: 45px;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    padding-top: 20px;
     
-    width: 30px;
-    height: 30%;
-    background-color: #5AD2AE;
-    border: 2px solid #29CEFF;
-    box-sizing: border-box;
-    border-radius: 20px;
-    grid-auto-rows: auto;
 }
 
-.ar1, .ar2, .ar3, .ar4, .ar5, .ar6, .ar7, .ar8, .ar9, .ar10, .ar11, .ar12, .ar13, .ar14, .ar15{
-    width: 100px;
-    height: 100px;
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.artista{
+    display: block;
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
     background-color: #5AD2AE;
-    border: 2px solid #29CEFF;
+    border: 2px solid #469F85;
     box-sizing: border-box;
     border-radius: 20px;
-    font-display: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p{
+    display: block;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    
 }
